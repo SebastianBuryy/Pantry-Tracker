@@ -29,9 +29,6 @@ import Footer from '../components/footer';
 import CircularProgress from '@mui/material/CircularProgress';
 import axios from 'axios';
 
-import * as tf from '@tensorflow/tfjs';
-import * as mobilenet from '@tensorflow-models/mobilenet';
-
 const style = {
   position: 'absolute',
   top: '50%',
@@ -75,7 +72,7 @@ export default function Dashboard() {
     } else {
       updatePantry();
     }
-  }, [user]);
+  }, [user, router, updatePantry]);
 
   const updatePantry = async () => {
     if (!user) return;
@@ -93,7 +90,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     updatePantry();
-  }, []);
+  }, [updatePantry]);
 
   // Create a unique ID for each item
   const createItemId = (name, expirationDate, price) => {
@@ -169,7 +166,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     checkExpiration();
-  }, [pantry]);
+  }, [pantry, checkExpiration]);
 
   // Helper function to safely parse dates
   const formatDate = (dateString) => {
@@ -242,7 +239,7 @@ export default function Dashboard() {
     if (pantry.length > 0) {
       fetchRecipes(); // Fetch recipes after pantry is updated
     }
-  }, [pantry]);
+  }, [pantry, fetchRecipes]);
 
   return (
     <Box

@@ -35,9 +35,6 @@ export default function Home() {
           <Typography variant={isMobile ? 'body1' : 'h5'} color='white' maxWidth='1000px' gutterBottom sx={{ textShadow: '0px 1px 6px gray', marginBottom: 5 }}>
               Your ultimate solution for managing pantry items efficiently! With Pantry Tracker, you can minimize food waste, save money, and unleash your culinary creativity by discovering new recipes tailored to the ingredients you have at home.
           </Typography>
-          {/* <Typography variant={isMobile ? 'body1' : 'h6'} color='white' maxWidth='1000px' paragraph sx={{ textShadow: '0px 1px 6px gray', marginBottom: '30px' }}>
-              Join our community of food lovers and home cooks who are taking control of their kitchens. Start tracking your inventory today and never let good food go to waste again!
-          </Typography> */}
           <hr style={{ width: '100%', maxWidth: '1000px', border: '2px solid white', marginBottom: '20px' }} />
           <Typography variant={isMobile ? 'h5' : 'h4'} fontWeight='bold' color='white' sx={{ textShadow: '0 1px 5px gray'}} gutterBottom>
               Sign in to get started!

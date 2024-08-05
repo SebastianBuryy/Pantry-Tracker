@@ -189,23 +189,6 @@ export default function SignIn() {
                 {error}
               </Typography>
             )}
-            {/* <FormControlLabel
-              control={
-                <Checkbox 
-                  value="remember"
-                  color="primary"
-                  sx={{
-                    '&.Mui-checked': {
-                        color: '#3DED97',  // Checked color
-                     },
-                    '&:hover': {
-                        color: '#3DED97',  // Hover color
-                     },
-                  }}
-                />
-              }
-              label="Remember me"
-            /> */}
             <Button
               type="submit"
               fullWidth
@@ -233,7 +216,7 @@ export default function SignIn() {
             </Button>
             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '40px' }}>
                <Typography variant="body1">
-                   Don't have an account?
+                  {`Don't have an account?`}
                </Typography>
                <Button
                    href="/register"
