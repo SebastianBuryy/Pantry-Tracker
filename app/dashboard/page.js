@@ -72,7 +72,7 @@ export default function Dashboard() {
     } else {
       updatePantry();
     }
-  }, [user, router, updatePantry]);
+  }, [user, router]);
 
   const updatePantry = async () => {
     if (!user) return;
@@ -90,7 +90,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     updatePantry();
-  }, [updatePantry]);
+  }, []);
 
   // Create a unique ID for each item
   const createItemId = (name, expirationDate, price) => {
@@ -166,7 +166,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     checkExpiration();
-  }, [pantry, checkExpiration]);
+  }, [pantry]);
 
   // Helper function to safely parse dates
   const formatDate = (dateString) => {
@@ -239,7 +239,7 @@ export default function Dashboard() {
     if (pantry.length > 0) {
       fetchRecipes(); // Fetch recipes after pantry is updated
     }
-  }, [pantry, fetchRecipes]);
+  }, [pantry]);
 
   return (
     <Box
