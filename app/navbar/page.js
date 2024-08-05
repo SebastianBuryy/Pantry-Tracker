@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
