@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  <div>
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="next.js" />
+    <img src="https://img.shields.io/badge/-Node_JS-black?style=for-the-badge&logoColor=white&logo=nodedotjs&color=5FA04E" alt="node.js" />
+    <img src="https://img.shields.io/badge/-Material_UI-black?style=for-the-badge&logoColor=white&logo=mui&color=007FFF" alt="mui" />
+    <img src="https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logoColor=white&logo=firebase&color=DD2C00" alt="firebase" />
+    <img src="https://img.shields.io/badge/-Edamam-black?style=for-the-badge&logoColor=white&logo=&color=32CD32" alt="edamam" />
+    <img src="https://img.shields.io/badge/-Vercel-black?style=for-the-badge&logoColor=white&logo=vercel&color=000000" alt="vercel" />
+  
+  </div>
 
-First, run the development server:
+  <h1 align="center">Pantry Tracker App</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  <h3 align="center">
+  <a href="https://pantry-tracker-sebastian-bury.vercel.app" target="_blank" rel="noopener noreferrer">
+    Live Link
+  </a>
+</h3>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## <a name="introduction">🤖 Introduction</a>
 
-To learn more about Next.js, take a look at the following resources:
+Your ultimate solution for managing pantry items efficiently! With Pantry Tracker, you can minimise food waste, save money, and unleash your culinary creativity by discovering new recipes tailored to the ingredients you have at home.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- React.js
+- Next.js
+- Node.js
+- Material UI
+- Firebase
+- Edamam API
+- Vercel
 
-## Deploy on Vercel
+## <a name="features">🔋 Features</a>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 **Inventory Management**: Keep track of your pantry items by adding, removing, and filtering items.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+👉 **Recipe Suggestions**: Discover new recipes based on the ingredients already in your pantry.
+
+👉 **Expiration Alerts**: Receive notifications when items are about to expire.
+
+👉 **User Authentication**: Secure and seamless login experience with multiple sign-in options <i>(email/google)</i> for user convenience.
+
+👉 **Responsive Design**: Ensures optimal display and functionality across all devices.
